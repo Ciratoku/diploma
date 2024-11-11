@@ -48,7 +48,7 @@ function MainInfo() {
       <div className="main-buttons">
         <Button
           handleClick={() => {
-            window.open(`http://t.me/${data.tag}`, "_blank").focus();
+            window.open(`http://t.me/${data.tag.slice(1)}`, "_blank").focus();
           }}
         >
           <Message />
