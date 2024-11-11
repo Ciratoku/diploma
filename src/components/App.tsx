@@ -1,8 +1,5 @@
-import { useLaunchParams, miniApp, useSignal } from '@telegram-apps/sdk-react';
-import { AppRoot } from '@telegram-apps/telegram-ui';
-import { Navigate, Route, Routes, HashRouter } from 'react-router-dom';
-
-import { routes } from '@/navigation/routes.tsx';
+import { useLaunchParams, miniApp, useSignal } from "@telegram-apps/sdk-react";
+import { AppRoot } from "@telegram-apps/telegram-ui";
 
 export function App() {
   const lp = useLaunchParams();
