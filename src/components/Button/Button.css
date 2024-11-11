@@ -1,0 +1,10 @@
+.btn {
+  width: 177.5px;
+  height: 58px;
+  padding: 4px;
+  border-radius: 10px;
+  border: none;
+  background-color: cadetblue;
+  opacity: 30%;
+  color: white;
+}
