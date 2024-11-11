@@ -9,13 +9,6 @@ export function App() {
     <AppRoot
       appearance={isDark ? "dark" : "light"}
       platform={["macos", "ios"].includes(lp.platform) ? "ios" : "base"}
-    >
-      <HashRouter>
-        <Routes>
-          {routes.map((route) => <Route key={route.path} {...route} />)}
-          <Route path="*" element={<Navigate to="/"/>}/>
-        </Routes>
-      </HashRouter>
-    </AppRoot>
+    ></AppRoot>
   );
 }
