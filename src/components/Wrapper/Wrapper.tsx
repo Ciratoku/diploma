@@ -1,4 +1,5 @@
 import { ReactElement, ReactPortal } from "react";
+import "./Wrapper.css";
 
 type ReactText = string | number;
 type ReactChild = ReactElement | ReactText;
@@ -18,7 +19,7 @@ type Props = {
 };
 
 function Wrapper({ children }: Props) {
-  return <div>{children}</div>;
+  return <div className="wrapper">{children}</div>;
 }
 
 export default Wrapper;
