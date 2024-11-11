@@ -7,8 +7,8 @@ export function App() {
 
   return (
     <AppRoot
-      appearance={isDark ? 'dark' : 'light'}
-      platform={['macos', 'ios'].includes(lp.platform) ? 'ios' : 'base'}
+      appearance={isDark ? "dark" : "light"}
+      platform={["macos", "ios"].includes(lp.platform) ? "ios" : "base"}
     >
       <HashRouter>
         <Routes>
