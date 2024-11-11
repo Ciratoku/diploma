@@ -1,5 +1,61 @@
 .main-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.name {
+  font-family: SF Pro Display;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+.nick {
+  font-family: SF Pro Display;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  opacity: 75%;
+}
+
+.desc {
+  font-family: SF Pro Text;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.location {
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+}
+
+.svg {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg)
+    brightness(119%) contrast(119%);
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 25%;
 }
