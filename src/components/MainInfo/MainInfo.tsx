@@ -18,7 +18,7 @@ function MainInfo() {
     fetch(`http://localhost:8080/user/840986267`)
       .then((response) => response.json())
       // 4. Setting *dogImage* to the image url that we received from the response above
-      .then((data) => setData(data))
+      .then((data) => data && setData(data))
       .catch((e) => console.log(e));
   }, []);
   return (
@@ -35,7 +35,11 @@ function MainInfo() {
         <div>{data.region}</div>
       </div>
       <div className="main-buttons">
-        <Button>
+        <Button
+          handleClick={() => {
+            window.open(`http://t.me/${data.tag}`, "_blank").focus();
+          }}
+        >
           <Message />
           <div>Написать</div>
         </Button>
