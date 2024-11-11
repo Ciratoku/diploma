@@ -1,15 +1,21 @@
 .main-info {
+  font-family: SF Pro Display;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  width: 100%;
+  background-color: rgba(214, 214, 214, 0.075);
+  width: 500px;
   padding: 20px 0;
+  gap: 10px;
+  background-image: url("../../../assets/Vector.svg");
+}
+
+.main-info img {
+  border-radius: 100%;
 }
 
 .name {
-  font-family: SF Pro Display;
   font-size: 28px;
   font-weight: 700;
   line-height: 34px;
@@ -18,7 +24,6 @@
 }
 
 .nick {
-  font-family: SF Pro Display;
   font-size: 17px;
   font-weight: 400;
   line-height: 22px;
@@ -28,18 +33,23 @@
 }
 
 .desc {
-  font-family: SF Pro Text;
-  font-size: 17px;
+  width: 100%;
+  font-size: 24px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: -0.4000000059604645px;
   text-align: center;
-  border-bottom: 1px solid;
+}
+
+.separator {
+  height: 2px;
+  width: 95%;
+  border-top: 1px solid black;
+  opacity: 29%;
 }
 
 .location {
-  font-family: SF Pro Text;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.01em;
@@ -49,13 +59,13 @@
 }
 
 .svg {
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg)
-    brightness(119%) contrast(119%);
+  filter: invert(28%) sepia(1%) saturate(240%) hue-rotate(314deg)
+    brightness(101%) contrast(79%);
 }
 
 .main-buttons {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 25%;
+  width: 90%;
 }
