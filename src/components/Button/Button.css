@@ -4,7 +4,6 @@
   padding: 4px;
   border-radius: 10px;
   border: none;
-  background-color: cadetblue;
-  opacity: 30%;
+  background-color: rgba(95, 158, 160, 0.441);
   color: white;
 }
