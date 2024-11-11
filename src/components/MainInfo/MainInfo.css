@@ -13,6 +13,8 @@
 
 .main-info img {
   border-radius: 100%;
+  width: 182px;
+  height: 182px;
 }
 
 .name {
