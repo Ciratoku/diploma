@@ -15,6 +15,7 @@ function MainInfo() {
       <div className="desc">
         Креативный дизайнер, основательница школы Цитадель и студии Dofamin
       </div>
+      <hr className="separator" />
       <div className="location">
         <div className="svg">
           <Union />
