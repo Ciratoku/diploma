@@ -34,7 +34,7 @@ function Link({ children, Icon, linkType }: any) {
         </div>
         <p>{children}</p>
       </div>
-      <ArrowSVG style={{ opacity: "30%" }} />
+      <ArrowSVG style={{ opacity: "30%", marginRight: "16px" }} />
     </div>
   );
 }
