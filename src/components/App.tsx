@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { b64toBlob } from "./Utils/Utils";
 import Links from "./Links/Links";
 import Description from "./Description/Description";
+import { retrieveLaunchParams } from "@telegram-apps/sdk";
 
 export function App() {
   const lp = useLaunchParams();
@@ -30,7 +31,8 @@ export function App() {
       { link: "@ania._.melnik", type: "in" },
     ],
   });
-  console.log(window.Telegram.WebApp);
+  const { initDataRaw } = retrieveLaunchParams();
+  console.log(initDataRaw);
   useEffect(() => {
     const apiUrl = import.meta.env.VITE_API || "";
     fetch(apiUrl)
