@@ -1,4 +1,3 @@
-import { Props } from "@/types";
 import "./Button.css";
 
 function Button({ children, handleClick }: any) {

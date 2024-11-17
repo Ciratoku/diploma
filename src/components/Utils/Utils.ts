@@ -21,10 +21,3 @@ export const b64toBlob = (
   const blob = new Blob(byteArrays, { type: contentType });
   return blob;
 };
-
-const contentType = "image/png";
-const b64Data =
-  "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==";
-
-const blob = b64toBlob(b64Data, contentType);
-const blobUrl = URL.createObjectURL(blob);

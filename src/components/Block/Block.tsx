@@ -1,18 +1,10 @@
 import "./Block.css";
 
-function Block() {
-  const desc: string[] = [
-    "🏆 19 попаданий в галерею Made on Tilda",
-    "🏆 10 международных наград Awwwards HM",
-  ];
+function Block({ children, title }: any) {
   return (
     <div className="block-wrapper">
-      <p>описание</p>
-      <div className="block">
-        {desc.map((d, i) => (
-          <p key={i}>{d}</p>
-        ))}
-      </div>
+      <p>{title}</p>
+      {children}
     </div>
   );
 }
