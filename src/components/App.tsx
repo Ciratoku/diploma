@@ -30,7 +30,7 @@ export function App() {
       { link: "@ania._.melnik", type: "in" },
     ],
   });
-
+  console.log(window.Telegram.WebApp);
   useEffect(() => {
     const apiUrl = import.meta.env.VITE_API || "";
     fetch(apiUrl)
