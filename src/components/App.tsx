@@ -18,7 +18,7 @@ export function App() {
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque accusamus eaque nesciunt a perspiciatis eum odio quaerat ducimus? Earum distinctio fuga minima rerum odit quaerat voluptate! Illum at quasi debitis.",
     info: "some info about me",
-    region: "USA, Las Vegas",
+    region: "USA, Pskov",
     photo:
       "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
     links: [
