@@ -12,7 +12,7 @@ function Link({ children, Icon, linkType }: any) {
   const linkStyle = {
     width: "361px",
     height: "74px",
-    padding: "12px 16px 12px 10px",
+    // padding: "12px 16px 12px 10px",
     borderRadius: "10px",
     display: "flex",
     justifyContent: "space-between",
